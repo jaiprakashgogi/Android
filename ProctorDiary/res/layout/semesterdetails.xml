@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/bSem1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 1" />
+
+    <Button
+        android:id="@+id/bSem2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 2" />
+
+    <Button
+        android:id="@+id/bSem3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 3" />
+
+    <Button
+        android:id="@+id/bSem4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 4" />
+
+    <Button
+        android:id="@+id/bSem5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 5" />
+
+    <Button
+        android:id="@+id/bSem6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Semester 6" />
+
+    <TextView
+        android:id="@+id/tvSemDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please fill in all the details before generating the final report" />
+
+    <Button
+        android:id="@+id/bReport"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="View Report" />
+
+</LinearLayout>

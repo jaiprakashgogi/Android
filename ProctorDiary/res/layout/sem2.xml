@@ -1,0 +1,813 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <HorizontalScrollView
+        android:id="@+id/HorizontalScrollView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <!-- 1st row -->
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/bShow"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:text="Show" />
+
+                <Button
+                    android:id="@+id/bUpdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_span="1"
+                    android:text="Update" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_span="7"
+                    android:background="#b0b0b0"
+                    android:padding="18dip"
+                    android:text="Hint"
+                    android:textColor="#000"
+                    android:textSize="18dp" />
+            </TableRow>
+            <!-- 2nd row Subjects name -->
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:id="@+id/tvSub0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Exam v Sub >"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tvSub1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub3"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 3"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub4"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 4"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub5"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 5"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub6"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 6"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub7"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 7"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub8"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Subject 8"
+                    android:textColor="#000000" />
+            </TableRow>
+            <!-- 3rd row 1st Internal-->
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="1st Internal"
+                    android:textColor="#000000" />
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub1Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub2Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub3Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub4Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub5Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub6Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub7Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub8Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+            </TableRow>
+             <!-- 4th 2nd internal-->
+             <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="2nd Internal"
+                    android:textColor="#000000" />
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub1Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub2Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub3Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub4Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub5Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub6Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub7Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub8Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+            </TableRow>
+            <!-- 4th 3rd internal-->
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="3rd Internal"
+                    android:textColor="#000000" />
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub1Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub2Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub3Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub4Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub5Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub6Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub7Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub8Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/15"
+                    android:textColor="#000000" />
+            </TableRow>
+           <!-- 5th row Best of Internals -->
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Inernals Best"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tvSub1Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub2Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub3Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 3"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub4Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 4"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub5Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 5"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub6Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 6"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub7Int0"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 7"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub8Int0"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 8"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <!-- 6th row Assignment-->
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Assignment"
+                    android:textColor="#000000" />
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub1Int3"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/10"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub2Int3"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/10"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub3Int3"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/10"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub4Int3"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/10"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub5Int3"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/10"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub6Int3"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/5"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub7Int3"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/5"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub8Int3"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/5"
+                    android:textColor="#000000" />
+            </TableRow>
+
+           <!-- 7th Row: Intenals Total -->
+
+            <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Inernals Total"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tvSub1Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub2Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub3Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 3"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub4Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 4"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub5Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 5"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub6Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 6"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub7Int1"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 7"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub8Int1"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Subject 8"
+                    android:textColor="#000000" />
+            </TableRow>
+            <!-- 8th row External-->
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="External"
+                    android:textColor="#000000" />
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub1Int4"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/100"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub2Int4"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/100"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub3Int4"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/100"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub4Int4"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/100"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub5Int4"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/100"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub6Int4"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub7Int4"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+
+                <EditText android:inputType="number"
+                    android:id="@+id/etSub8Int4"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="__/50"
+                    android:textColor="#000000" />
+            </TableRow>
+
+            <!-- 9th row Total-->
+           <TableRow
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:text="Total"
+                    android:textColor="#000000" />
+                <TextView
+                    android:id="@+id/tvSub1Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 1"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub2Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 2"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub3Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 3"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub4Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="total 4"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub5Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 5"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub6Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 6"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub7Int2"
+                    android:layout_weight="1"
+                    android:background="#b0b0b0"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 7"
+                    android:textColor="#000000" />
+
+                <TextView
+                    android:id="@+id/tvSub8Int2"
+                    android:layout_weight="1"
+                    android:background="#a09f9f"
+                    android:gravity="center"
+                    android:padding="18dip"
+                    android:hint="Total 8"
+                    android:textColor="#000000" />
+            </TableRow>
+
+        </TableLayout>
+    </HorizontalScrollView>
+
+</ScrollView>

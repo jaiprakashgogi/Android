@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/tvSignup"
+        android:layout_width="278dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="Sign Up" />
+
+    <EditText
+        android:id="@+id/etUser"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="username" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/etUsn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="usn"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etNameFather"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="father&apos;s name" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="E-mail "
+        android:inputType="textEmailAddress" />
+
+    <EditText
+        android:id="@+id/etMobile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:ems="10"
+        android:hint="mobile no."
+        android:inputType="phone" />
+
+    <Button
+        android:id="@+id/bRegisterSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="OK" />
+
+    <Button
+        android:id="@+id/bCancelSign"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.00"
+        android:text="Show Users" />
+
+</LinearLayout>
